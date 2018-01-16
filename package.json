@@ -2,5 +2,10 @@
   "name": "my-yarn-project",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "unlicensed"
+  "license": "unlicensed",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
 }
