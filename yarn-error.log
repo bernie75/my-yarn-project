@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js add webpack webpack-dev-server --dev
+  /usr/bin/node /usr/share/yarn/bin/yarn.js init
 
 PATH: 
   ./bin:/usr/local/opt/rbenv/shims:/usr/local/opt/rbenv/bin:/home/yas/bin:/home/yas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -4035,7 +4035,14 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com:443
-      at Object._errnoException (util.js:1024:11)
-      at errnoException (dns.js:55:15)
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:121045:13)
+      at emitNone (events.js:106:13)
+      at Interface.emit (events.js:208:7)
+      at Interface._ttyWrite (readline.js:775:16)
+      at ReadStream.onkeypress (readline.js:160:10)
+      at emitTwo (events.js:126:13)
+      at ReadStream.emit (events.js:214:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1011:36)
